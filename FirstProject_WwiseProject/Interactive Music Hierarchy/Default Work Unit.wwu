@@ -159,13 +159,11 @@
 						</MusicSegment>
 					</ChildrenList>
 				</MusicPlaylistContainer>
-				<MusicPlaylistContainer Name="TitleScreenMusic" ID="{B84794DC-5464-4E68-9EA5-5F0554597E11}" ShortID="352642846">
+				<MusicPlaylistContainer Name="TitleMusic" ID="{A5EC8795-62CF-4CA2-9E1F-2E97C27AE12F}" ShortID="1071252047">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="17"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-7</Value>
+								<Value>3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -174,23 +172,23 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3032BEEB-FD86-4401-B274-5CBC94BD0E6E}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2108970-7662-45C6-9EDB-0005F1F508FD}"/>
+							<ObjectRef Name="Music Bus" ID="{0F669C5B-423B-4023-AE3C-C378828E5BD8}" WorkUnitID="{E2108970-7662-45C6-9EDB-0005F1F508FD}"/>
 						</Reference>
 						<Reference Name="PlaylistRoot">
 							<Custom>
-								<MusicPlaylistItem Name="" ID="{ECC179FF-DEFE-4735-BDB2-7490838C33BC}" ShortID="663482229">
+								<MusicPlaylistItem Name="" ID="{4B6D64F4-32CC-40BF-A5E8-AF2A4DDE4CEE}" ShortID="178747161">
 									<PropertyList>
 										<Property Name="LoopCount" Type="int16" Value="0"/>
 									</PropertyList>
 									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{06E1F652-20E6-428C-83DF-845CCC2C65BC}" ShortID="987421956">
+										<MusicPlaylistItem Name="" ID="{09D6A690-3F98-49EE-BD60-CBA2B8BBC968}" ShortID="443648588">
 											<PropertyList>
 												<Property Name="LoopCount" Type="int16" Value="0"/>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Segment">
-													<ObjectRef Name="TitleScreenMusic" ID="{DF53D5C0-E9DB-4EED-B991-0857DE45A7BE}" WorkUnitID="{FBE70E95-EBFD-49F1-8722-28D616C5693A}"/>
+													<ObjectRef Name="glass tooth title shorter loop" ID="{C57C636D-FD22-4DA1-B2C0-23D82CBC1100}" WorkUnitID="{FBE70E95-EBFD-49F1-8722-28D616C5693A}"/>
 												</Reference>
 											</ReferenceList>
 										</MusicPlaylistItem>
@@ -200,12 +198,12 @@
 						</Reference>
 						<Reference Name="TransitionRoot">
 							<Custom>
-								<MusicTransition Name="Root" ID="{5FE675C8-E388-4231-99F8-E2CC6CD28821}">
+								<MusicTransition Name="Root" ID="{AB30B5BF-3128-4D2F-9010-E9B7509DD125}">
 									<PropertyList>
 										<Property Name="IsFolder" Type="bool" Value="True"/>
 									</PropertyList>
 									<ChildrenList>
-										<MusicTransition Name="Transition" ID="{5E5A2645-8A03-40EF-B848-E46BA9B3A72E}">
+										<MusicTransition Name="Transition" ID="{FCEF5E46-84E5-4481-A914-4276AB51B056}">
 											<TransitionInfo/>
 										</MusicTransition>
 									</ChildrenList>
@@ -215,11 +213,9 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="TitleScreenMusic" ID="{DF53D5C0-E9DB-4EED-B991-0857DE45A7BE}" ShortID="48379006">
+						<MusicSegment Name="glass tooth title shorter loop" ID="{C57C636D-FD22-4DA1-B2C0-23D82CBC1100}" ShortID="258090658">
 							<PropertyList>
-								<Property Name="Color" Type="int16" Value="17"/>
-								<Property Name="EndPosition" Type="Real64" Value="117343.479166667"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="EndPosition" Type="Real64" Value="31219.5208333333"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -230,14 +226,14 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="TitleScreenMusic" ID="{C1A2A305-21B1-4B19-B056-7FEE5F78A65E}" ShortID="1038870242">
+								<MusicTrack Name="glass tooth title shorter loop" ID="{EB179B20-A1C6-47C7-9532-5F82F9E48A8E}" ShortID="995400947">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E2108970-7662-45C6-9EDB-0005F1F508FD}"/>
 										</Reference>
 										<Reference Name="TransitionRoot">
 											<Custom>
-												<MusicTransition Name="Root" ID="{7AA2239F-D220-412E-AE08-D60E69C1B3F1}">
+												<MusicTransition Name="Root" ID="{C65122DC-D904-4DB6-AAF7-8C2C1852E414}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -247,11 +243,11 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="TitleScreenMusic" ID="{741933EB-565A-4CBF-BD5D-CC205D2E9F29}">
+										<AudioFileSource Name="glass tooth title shorter loop" ID="{72054B68-7E03-479F-B63E-2A14189EBCCF}">
 											<Language>SFX</Language>
-											<AudioFile>TitleScreenMusic.wav</AudioFile>
+											<AudioFile>glass tooth title shorter loop.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="674987883"/>
+												<MediaID ID="1049426554"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -259,18 +255,18 @@
 										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{67B15308-69A9-48DC-9D7F-0733D29070DE}">
+													<MusicTrackSequence Name="" ID="{4DC5387C-73BF-45A5-8185-797802167FA2}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="TitleScreenMusic" ID="{3A392566-7202-458C-B399-D6498555637B}">
+																		<MusicClip Name="glass tooth title shorter loop" ID="{F79F1718-CC94-4BBF-8B62-EFBC73307992}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="117343.479166667"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="31219.5208333333"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="TitleScreenMusic" ID="{741933EB-565A-4CBF-BD5D-CC205D2E9F29}"/>
+																			<AudioSourceRef Name="glass tooth title shorter loop" ID="{72054B68-7E03-479F-B63E-2A14189EBCCF}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -287,15 +283,15 @@
 								<ObjectList Name="Cues">
 									<Reference>
 										<Local>
-											<MusicCue Name="Entry Cue" ID="{BECC6B3A-EEB0-4AAE-9C74-5935C7950F51}"/>
+											<MusicCue Name="Entry Cue" ID="{E9EEB5C2-99C3-4BBF-81C0-BD26BE8FFD1A}"/>
 										</Local>
 									</Reference>
 									<Reference>
 										<Local>
-											<MusicCue Name="Exit Cue" ID="{C1EB74D2-7278-423E-8795-F5C5E06A3159}">
+											<MusicCue Name="Exit Cue" ID="{0D4CA9D6-B887-4CC9-A99A-E41ED0B8D031}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="117343.479166667"/>
+													<Property Name="TimeMs" Type="Real64" Value="31219.5208333333"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>

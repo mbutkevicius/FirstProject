@@ -67,7 +67,7 @@
 				</Bus>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DB7F6B65-5E55-6962-34D7-3F2D5D535EDD}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A7A376CB-C497-5701-674C-854188BD624B}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -143,10 +143,6 @@
 					<ShortName>trip_yelp.wav</ShortName>
 					<CachePath>SFX/trip_yelp_818F3B66.wem</CachePath>
 				</File>
-				<File Id="674987883" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>TitleScreenMusic.wav</ShortName>
-					<CachePath>SFX/TitleScreenMusic_FBC78EF0.wem</CachePath>
-				</File>
 				<File Id="702273742" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ui_countdown.wav</ShortName>
 					<CachePath>SFX/ui_countdown_818F3B66.wem</CachePath>
@@ -194,6 +190,10 @@
 				<File Id="1010140489" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GhostLaughSFX.wav</ShortName>
 					<CachePath>SFX/GhostLaughSFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1049426554" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>glass tooth title shorter loop.wav</ShortName>
+					<CachePath>SFX/glass tooth title shorter loop_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="1053870579" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ghost_yellow_windup2.wav</ShortName>
@@ -301,7 +301,7 @@
 				</Event>
 				<Event Id="2191159630" Name="TitleMusic" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="674987883"/>
+						<MediaRef Id="1049426554"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4043912151" Name="trip_death" DurationType="OneShot" DurationMin="3.408375" DurationMax="3.408375">
@@ -334,5 +334,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{90C6E295-7111-2118-B0EB-C7361FE1C796}</FileHash>
+	<FileHash>{61AE25F9-DC15-0351-F0D4-9EA412E9B08A}</FileHash>
 </SoundBanksInfo>

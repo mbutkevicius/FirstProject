@@ -444,7 +444,7 @@
 								<Action Name="" ID="{B93C57DD-CEF7-4378-83D5-288405B94D0C}" ShortID="989910565">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="TitleScreenMusic" ID="{B84794DC-5464-4E68-9EA5-5F0554597E11}" WorkUnitID="{FBE70E95-EBFD-49F1-8722-28D616C5693A}"/>
+											<ObjectRef Name="TitleMusic" ID="{A5EC8795-62CF-4CA2-9E1F-2E97C27AE12F}" WorkUnitID="{FBE70E95-EBFD-49F1-8722-28D616C5693A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
