@@ -3971,20 +3971,24 @@ PrefabInstance:
       value: PurpleGhost
       objectReference: {fileID: 0}
     - target: {fileID: 5479391309817269999, guid: 9de6b7c53509fe44e9c874831bb6e910, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479391309817269999, guid: 9de6b7c53509fe44e9c874831bb6e910, type: 3}
       propertyPath: m_Color.g
-      value: 0.5990566
+      value: 0.27843142
       objectReference: {fileID: 0}
     - target: {fileID: 5479391309817269999, guid: 9de6b7c53509fe44e9c874831bb6e910, type: 3}
       propertyPath: m_Color.r
-      value: 0.88369584
+      value: 0.7404324
       objectReference: {fileID: 0}
     - target: {fileID: 5479391309817269999, guid: 9de6b7c53509fe44e9c874831bb6e910, type: 3}
       propertyPath: m_Intensity
-      value: 2.5
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 5479391309817269999, guid: 9de6b7c53509fe44e9c874831bb6e910, type: 3}
       propertyPath: m_FalloffIntensity
-      value: 0
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 5479391309817269999, guid: 9de6b7c53509fe44e9c874831bb6e910, type: 3}
       propertyPath: m_PointLightInnerRadius
@@ -3992,7 +3996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5479391309817269999, guid: 9de6b7c53509fe44e9c874831bb6e910, type: 3}
       propertyPath: m_PointLightOuterRadius
-      value: 1.5
+      value: 1.66
       objectReference: {fileID: 0}
     - target: {fileID: 6453516319300610026, guid: 9de6b7c53509fe44e9c874831bb6e910, type: 3}
       propertyPath: amplitude
@@ -6055,9 +6059,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1975941096}
     m_Modifications:
+    - target: {fileID: 128861105023688240, guid: e1b296fdd1bb16c4ba20f90a224b9f05, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5209588
+      objectReference: {fileID: 0}
+    - target: {fileID: 128861105023688240, guid: e1b296fdd1bb16c4ba20f90a224b9f05, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 128861105023688240, guid: e1b296fdd1bb16c4ba20f90a224b9f05, type: 3}
+      propertyPath: m_Color.r
+      value: 0.28773582
+      objectReference: {fileID: 0}
     - target: {fileID: 2978153279961957196, guid: e1b296fdd1bb16c4ba20f90a224b9f05, type: 3}
       propertyPath: fadeInTime
-      value: 1
+      value: 1.1666
       objectReference: {fileID: 0}
     - target: {fileID: 2978153279961957196, guid: e1b296fdd1bb16c4ba20f90a224b9f05, type: 3}
       propertyPath: gemSpawner
@@ -6093,11 +6109,11 @@ PrefabInstance:
       objectReference: {fileID: 552543812}
     - target: {fileID: 5448875298151728100, guid: e1b296fdd1bb16c4ba20f90a224b9f05, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4
+      value: -16.5
       objectReference: {fileID: 0}
     - target: {fileID: 5448875298151728100, guid: e1b296fdd1bb16c4ba20f90a224b9f05, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.5
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 5448875298151728100, guid: e1b296fdd1bb16c4ba20f90a224b9f05, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6148,16 +6164,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1b296fdd1bb16c4ba20f90a224b9f05, type: 3}
---- !u!114 &785174947 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3966615878327518681, guid: 0b94f8a786d6ae546830aa0973c02838, type: 3}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &812360817
 GameObject:
   m_ObjectHideFlags: 0
@@ -32692,11 +32698,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5922404645372284441, guid: cbe8a3c05504b0a4cb2fa7626afcdd68, type: 3}
       propertyPath: m_Color.b
-      value: 0.6399611
+      value: 0.39564234
       objectReference: {fileID: 0}
     - target: {fileID: 5922404645372284441, guid: cbe8a3c05504b0a4cb2fa7626afcdd68, type: 3}
       propertyPath: m_Color.g
-      value: 0.5330188
+      value: 0.2971698
       objectReference: {fileID: 0}
     - target: {fileID: 5922404645372284441, guid: cbe8a3c05504b0a4cb2fa7626afcdd68, type: 3}
       propertyPath: m_Color.r
@@ -32708,11 +32714,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5922404645372284441, guid: cbe8a3c05504b0a4cb2fa7626afcdd68, type: 3}
       propertyPath: m_Intensity
-      value: 2.5
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 5922404645372284441, guid: cbe8a3c05504b0a4cb2fa7626afcdd68, type: 3}
       propertyPath: m_FalloffIntensity
-      value: 0
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 5922404645372284441, guid: cbe8a3c05504b0a4cb2fa7626afcdd68, type: 3}
       propertyPath: m_PointLightInnerRadius
@@ -32720,7 +32726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5922404645372284441, guid: cbe8a3c05504b0a4cb2fa7626afcdd68, type: 3}
       propertyPath: m_PointLightOuterRadius
-      value: 1.5
+      value: 1.66
       objectReference: {fileID: 0}
     - target: {fileID: 6322561436223686816, guid: cbe8a3c05504b0a4cb2fa7626afcdd68, type: 3}
       propertyPath: rb
@@ -33782,8 +33788,32 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8938731597826687464, guid: 3eb693332816a7943b18a95c1d595ab5, type: 3}
+      propertyPath: m_Color.b
+      value: 0.2117647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8938731597826687464, guid: 3eb693332816a7943b18a95c1d595ab5, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8896642
+      objectReference: {fileID: 0}
+    - target: {fileID: 8938731597826687464, guid: 3eb693332816a7943b18a95c1d595ab5, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8938731597826687464, guid: 3eb693332816a7943b18a95c1d595ab5, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8938731597826687464, guid: 3eb693332816a7943b18a95c1d595ab5, type: 3}
+      propertyPath: m_Intensity
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8938731597826687464, guid: 3eb693332816a7943b18a95c1d595ab5, type: 3}
+      propertyPath: m_FalloffIntensity
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8938731597826687464, guid: 3eb693332816a7943b18a95c1d595ab5, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 1.66
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
